@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Merriweather', serif;
+    box-sizing:border-box;
+}
+.header{
+	position: sticky;
+	width: 100%;
+	
+	
+}
+
+ nav {
+     display:flex;
+     align-items:center;
+     justify-content:space-around;
+     background-color:black;
+	 max-height: 6rem;
+	 
+ }
+.logo {
+    width:8.75rem;
+
+}
+.nav-links {
+    padding:1.75rem 0;  
+    margin-right: -7%;
+    
+}
+.nav-links li {
+    display:inline-block;
+    margin:0 1.5625rem;
+}
+.nav-links li a{
+    text-decoration:none;
+    color:#fff;
+    padding:0.3125rem 0;
+    position:relative;
+    
+}
+.nav-links li a::after {
+    content:'';
+    background: rgb(208, 243, 81);
+    width:0;
+    height:0.125rem;
+    position:absolute;
+    bottom:0;
+    left:0;
+    transition:width  0.5s;
+}
+.nav-links li a:hover::after {
+    width:100%; 
+}
+.btn {
+    background:#ff3d00;
+    color:#fff;
+    padding:10px 30px;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+.landingpage{
+	background-image: url(https://d12ammzw79sumv.cloudfront.net/Instant/Features/Technology/2019/June/cuddle-ai/__@_@__images@_/default_social_posts_15.853feded66fb.png);
+      background-repeat: no-repeat;
+      background-size: 106.25rem 56.25rem;
+	    
+	 
+}
+.firstline{
+    
+    position: absolute;
+    margin-top: 300px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: whitesmoke;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 37px;
+    font-family: 'Merriweather', serif;
+    
+  }
+   .contactbutton{
+    font-family: 'Merriweather', serif;
+      color: red;
+      text-decoration: none;
+      background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+      
+  }
+
+  button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #FF0072;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    margin-top: 23.4375rem;
+    margin-left: 85%;
+    background-image: url(https://w0.peakpx.com/wallpaper/280/751/HD-wallpaper-pure-black-amoled-blank-solid.jpg);
+   }
+   
+   button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: brown;
+    z-index: -1;
+   }
+   
+   button:hover, button:focus {
+    color: white;
+   }
+   
+   button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+   button:active {
+    transform: scale(0.9);
+   }
+   .space1{
+     background-color: black;
+     margin-top: 200px;
+     color: white;
+   }
+   .space3{
+     background-color: #000;
+     color: white;
+   }
+   
+   .space2{
+    background-color: black;
+    
+    color: white;
+  }
+  .youtubevideos{
+    background-color: #000;
+  }
+  .videos{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(46, 35, 35);
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 30%;
+    margin-left: 1%;
+  }
+  #banner{
+    background-color: black;
+    
+  }
+ .inline-block1 {
+    display: inline-block;
+    border: 1% solid brown;
+    margin-left: 5%;
+    max-width: 40%;
+    height: auto;
+  }
+ .inline-block2 {
+  display: inline-block;
+  border: 1% solid brown;
+  margin-left: 3%;
+  max-width: 40%;
+  height: auto;
+}
+
+.webdev{
+  background-image: url(https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&w=1000&q=80);
+  background-size: 1700px 900px;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 20px;
+}
+
+.webdevline{
+  position: absolute;
+  margin-top: 285px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+  color: greenyellow;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 37px;
+  font-family: 'Merriweather', serif;
+}
+
+.container{
+  margin-left: 5%;
+}
+
+.containerline{
+ color: white;
+ margin-left: 8%;
+ margin-top: 0.75%;
+}
+
+.containerdesc{
+  float: right;
+  color: white;
+  margin-top: -24%;
+  margin-right: 7%;
+  border: 5px solid red;
+  padding: 5px;
+  border-radius: 20px;
+  
+}
+
+.containerdesc2{
+  color: white;
+  float: right;
+  margin-top: -11%;
+  margin-right: 5%;
+  border: 5px solid red;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.marketing{
+  background-image: url(https://cdn.wallpapersafari.com/1/51/PYtICj.jpg);
+  background-size: 1550px 700px;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 20px;
+}
+
+.marketingline{
+  position: absolute;
+  margin-top: 450px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.30); /* Black background with 0.5 opacity */
+  color: greenyellow;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 37px;
+  font-family: 'Merriweather', serif;
+}
+
+.space4{
+  background-color: #000;
+     color: white;
+}
+
+.flip-card1 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-left: 10%;
+  margin-top: 2%;
+  float: left;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card1:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color:#000;
+  color: rgb(76, 175, 76);
+  transform: rotateY(180deg);
+}
+
+.flip-card2{
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-left: 40%;
+  margin-top: 2%; 
+}
+.flip-card2:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card3{
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-right: 10%;
+  margin-top: -13%;
+  
+  float: right;
+}
+
+.flip-card3:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.space5{
+  background-color: #000;
+     color: white;
+}
+
+ .formbackground{
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  clear: both;
+ 
+}
+ 
+ .form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 720px;
+  padding: 20px;
+  width: 320px;
+  margin-top: 100px;
+  clear: both;
+}
+
+.title {
+  color: #eee;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #dc2f55;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+   outline: 0;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+   
+.footer-distributed{
+	background: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+  margin-top: 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	max-height: 150px;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 4px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+ 
